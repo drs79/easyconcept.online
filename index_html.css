@@ -2,6 +2,7 @@ a { color:#5D5D9E; }
 a:visited { color:#5D5D9E; } 
 a:active { color:#5C615E; } 
 a:hover { color:#B2B3B4; } 
+#img_52fa8e25:hover { filter: brightness( 80%);  } 
 #menu_789b3a9 a { text-decoration: none; }
 #menu_789b3a9_pane { background-color: #B89D76; border: 1px solid #B89D76; padding-top: 10px; padding-bottom: 10px; box-shadow: 2px 2px 6px 0px rgba(8, 8, 8, 0.784314); }
 #menu_789b3a9_hr { background-color: #B89D76; height: 1px; border: none; }
@@ -13,15 +14,18 @@ a:hover { color:#B2B3B4; }
 		.menu_789b3a9_mainMenuEntry:hover span {	color:#FFFFFF !important; }
 		#menu_789b3a9 .mobileEntry { display: none; } 
 		#menu_789b3a9 .normalEntry { display: block; } 
-		@media only screen and (max-width:580px) { 
+		#menu_789b3a9_menualignmentwrapper{ width:249px; left: calc(50% - 124px);  } 
+		@media only screen and (max-width:500px) { 
 			#menu_789b3a9 .mobileEntry { display: block; } 
 			#menu_789b3a9 .normalEntry { display: none; } 
+			#menu_789b3a9_menualignmentwrapper { width:81px; left: calc(50% - 40px);  } 
 		}
 body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle1 { text-align:center; }
 #container_10fa1e7e { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; max-width:1200px; background:none;  }
 #container_10fa1e7e_padding { margin: 20px; display: block;  }
 .textstyle2 { text-align:left; }
+#img_52fa8e25 { position:absolute; left:4%; top:1%; width:92%; background:none; height:auto;  }
 #container_6a66f0ab { vertical-align: top; position:relative; display: inline-block; width:100%; background-color:#FFFFFF; background-image: url(rc_images/drs_high_resolution_logo_transparent__3_.png); background-position:center center; background-size:cover;  }
 #container_73277115 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:94px; background:none;  }
 #container_73277115_padding { margin: 10px; display: block;  }
@@ -30,20 +34,22 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle3 { font-size:18pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#000000; font-weight:bold; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.392157);  }
 .textstyle4 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#000000; font-weight:bold; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.392157);  }
 #container_3ae69361 { vertical-align: top; position:relative; display: inline-block; width:50%; min-height:91px; background:none;  }
-.textstyle5 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold; text-shadow: 2px 2px 2px #000000;  }
 #menu_789b3a9 { vertical-align: bottom; position:relative; display: inline-block; width:100%; height:38px; text-align:left; background:none;  }
+#menu_789b3a9_menualignmentwrapper { position: relative; overflow: visible; height: 100%; }
 .menuholder1 { position: relative; overflow: hidden; width: 100%; height: 100%; }
-.menustyle1 { position:absolute; width:81px; height:38px; left:10px;  }
+.menustyle1 { position:absolute; width:81px; height:38px; left:0px;  }
 .menuentry_text1 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:22px;  }
-.textstyle6 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.784314);  white-space: nowrap; }
-.menustyle2 { position:absolute; width:90px; height:38px; left:10px;  }
-.textstyle7 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#000000; font-weight:bold; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.705882);  white-space: nowrap; }
-.menustyle3 { position:absolute; width:69px; height:38px; left:100px;  }
-.menustyle4 { position:absolute; width:96px; height:38px; left:169px;  }
-.textstyle8 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF;  white-space: nowrap; }
-.textstyle9 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold;  white-space: nowrap; }
+.textstyle5 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.784314);  white-space: nowrap; }
+.menustyle2 { position:absolute; width:127px; height:38px; left:0px;  }
+.menuentry_text2 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:33px;  }
+.textstyle6 { font-size:18pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#000000; font-weight:bold; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.705882);  white-space: nowrap; }
+.menustyle3 { position:absolute; width:92px; height:38px; left:127px;  }
+.menustyle4 { position:absolute; width:30px; height:38px; left:219px;  }
+.menuentry_text3 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:0px;  }
+.textstyle7 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF;  white-space: nowrap; }
+.textstyle8 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold;  white-space: nowrap; }
+.textstyle9 { font-size:12pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#FFFFFF; font-weight:bold; text-shadow: 2px 2px 2px #000000;  }
 .textstyle10 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
-#img_52fa8e25 { position:absolute; left:4%; top:1%; width:92%; background:none; height:auto;  }
 #container_c131272 { vertical-align: bottom; position:relative; display: inline-block; width:100%; min-height:405px; background:none;  }
 #container_c131272_padding { margin: 10px; display: block;  }
 .textstyle11 { font-size:44pt; font-family:'Palatino Linotype', 'Book Antiqua3', Palatino, serif; color:#000000; font-weight:bold; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.392157);  }
@@ -81,6 +87,10 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 #container_18f46d01 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
 #container_18f46d01_padding { margin: 10px; display: block;  }
 .ulstyle1 { margin:0; font-size: 12pt; color:#3F3F3F;  }
+@media only screen and (max-width: 8000px)
+{
+		#img_52fa8e25 { display:none;  }
+}
 @media only screen and (max-width: 650px)
 {
 		#container_3b82ee4e { width:100%;  }
@@ -89,9 +99,9 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 }
 @media only screen and (max-width: 500px)
 {
-		#container_6a66f0ab { display:none;  }
 		#img_52fa8e25 { display:inline-block;  }
-		#container_c131272 { display:inline-block;  }
+		#container_6a66f0ab { display:none;  }
+		#container_3ae69361 { left:50%; top:8%;  }
 }
 @media only screen and (max-width: 360px)
 {
