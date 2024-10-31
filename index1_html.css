@@ -60,9 +60,10 @@ body { background-color:#FFFFFF; padding:0;  margin: 0; }
 #container_66074cc0_padding { margin: 10px; display: block;  }
 #container_40cee31b { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:60px; background:none;  }
 #container_40cee31b_padding { margin: 10px; display: block;  }
-.textstyle9 { font-size:8pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
+.textstyle9 { font-size:10pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
 #container_434e3d86 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:60px; background:none;  }
 #container_434e3d86_padding { margin: 10px; display: block;  }
+.textstyle10 { font-size:8pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  }
 #container_52b91d85 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:60px; background:none;  }
 #container_52b91d85_padding { margin: 10px; display: block;  }
 #container_1b67dbf0 { position:absolute; left:0%; top:63%; width:100%; min-height:80px; background:none;  }
